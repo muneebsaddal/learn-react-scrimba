@@ -1,7 +1,9 @@
-export default function Footer() {
+function Footer() {
     return (
         <footer className="footer">
             <small>© 2022 Controller development. All rights reserved.</small>
         </footer>
     )
 }
+
+export default Footer

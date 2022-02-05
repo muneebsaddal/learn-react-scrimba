@@ -1,14 +1,15 @@
-export default function Header() {
+import reactLogo from "../images/favicon.ico"
+
+function Header() {
     return (
         <header>
             <nav className="nav">
-                <img src="favicon.ico" className="nav-logo"></img>
-                <ul className="nav-items">
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contacts</li>
-                </ul>
+                <img src={reactLogo} className="nav-logo"></img>
+                <h3 className="nav-title">React</h3> 
+                <h4> React Course Project - I</h4>
             </nav>
         </header>
     )
 }
+
+export default Header
