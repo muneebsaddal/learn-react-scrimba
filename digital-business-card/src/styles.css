@@ -1,6 +1,7 @@
 body {
   margin: auto;
   max-width: 300px;
+  background-color: #eeece2;
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -88,7 +89,7 @@ body {
 }
 
 .footer {
-  background-color: #D5D4D8;
+  background-color: #e2dfd9;
   display: block;
   bottom: 0px;
   left: 0px;
