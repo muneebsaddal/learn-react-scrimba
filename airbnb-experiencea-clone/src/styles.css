@@ -1,0 +1,95 @@
+body {
+  margin: auto;
+  font-family: Poppins, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918E9B;
+}
+
+nav {
+  height: 45px;
+  display: flex;
+  padding: 10px 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo {
+  max-width: 30%;
+}
+
+.hero {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-photo {
+  align-self: center;
+  max-width: 400px;
+}
+
+.hero-header {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+}
+
+.hero-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+  color: #222222;
+  max-width: 65%;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  padding: 20px;
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column; 
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+}
+
+.card-star {
+  height: 14px;
+}
+
+.card-price {
+  margin-top: auto;
+}
