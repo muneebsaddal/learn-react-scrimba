@@ -3,6 +3,10 @@ body {
   font-family: Inter, sans-serif;
 }
 
+main {
+  padding: 50px;
+}
+
 .header {
   background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
   color: white;
@@ -30,4 +34,35 @@ body {
   padding: 0px 40px;
   font-weight: 500;
   font-size: 14px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 20px;
+}
+
+.form-input {
+  font-family: Karla;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.form-button {
+  font-family: Karla;
+  grid-column: -1 / 1;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
 }

@@ -1,0 +1,14 @@
+
+function Meme() {
+    return (
+        <main>
+            <form className="form">
+                <input type="text" placeholder="Top text" className="form-input"></input>
+                <input type="text" placeholder="Bottom text" className="form-input"></input>
+                <button className="form-button">get a new meme</button>
+            </form>
+        </main>
+    )
+}
+
+export default Meme
