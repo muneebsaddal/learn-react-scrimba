@@ -1,0 +1,33 @@
+body {
+  margin: auto;
+  font-family: Inter, sans-serif;
+}
+
+.header {
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.header-logo {
+  width: 50px;
+  padding-left: 30px;  
+}
+
+.header-title {
+  padding-left: 10px;
+  font-family: Karla;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: -0.1em;
+  margin-right: auto;
+}
+
+.header-detail {
+  padding: 0px 40px;
+  font-weight: 500;
+  font-size: 14px;
+}
