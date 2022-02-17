@@ -1,14 +1,18 @@
 import reactLogo from "../images/favicon.ico"
 
-function Header() {
+function Header(props) {
     return (
-        <header>
-            <nav className="nav">
-                <img src={reactLogo} className="nav-logo"></img>
-                <h3 className="nav-title">React</h3> 
-                <h4> React Course Project - I</h4>
-            </nav>
-        </header>
+        <nav className={props.darkMode ? "dark" : ""}>
+            <img src={reactLogo} className="nav-logo"></img>
+            <h3 className="nav-title">React Facts</h3>
+            <div className="toggler">
+                <p className="toggler-light">Light</p>
+                <div className="toggler-slider" onClick={props.handleClick}>
+                    <div className="toggler-slider-circle"></div>
+                </div>
+                <p className="toggler-dark">Dark</p>
+            </div>
+        </nav>
     )
 }
 
