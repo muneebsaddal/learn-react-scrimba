@@ -1,16 +1,16 @@
-function Die (props) {
+function Die(props) {
+
+    const styles = {
+        backgroundColor: props.isHeld ? "#59E391" : "white"
+    }
+
     return (
-        <div className="die-container">
-            <div className="die">{props.number}</div>
-            <div className="die">{props.number}</div>
-            <div className="die">{props.number}</div>
-            <div className="die">{props.number}</div>
-            <div className="die">{props.number}</div>
-            <div className="die">{props.number}</div>
-            <div className="die">{props.number}</div>
-            <div className="die">{props.number}</div>
-            <div className="die">{props.number}</div>
-            <div className="die">{props.number}</div>
+        <div
+            onClick={props.holdDice}
+            className="die"
+            style={styles}
+        >
+            {props.value}
         </div>
     )
 }
