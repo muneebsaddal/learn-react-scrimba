@@ -1,4 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Karla, Inter, sans-serif;
+  background:  #F5F7FB;
+  padding: 6%;
+  background-image: url("./images/blob-yellow.png"), url("./images/blob-blue.png");
+  background-position: top right, bottom left;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.intro {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 600px;
+}
+
+.intro-title {
+  margin: 0;
+  font-family: Karla;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 60px;
+  text-align: center;
+  color: #293264;  
+}
+
+.intro-description {
+  margin: 0;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #293264;
+  max-width: 300px;
+}
+
+.intro-button {
+  border: none;
+  width: 190px;
+  height: 50px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #F5F7FB;
+  background: #4D5B9E;
+  border-radius: 15px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+  margin: 30px 0px
+}
+
+.intro-button:focus {
+  outline: none;
+}
+
+.intro-button:active {
+  box-shadow: inset 4px 4px 5px -3px rgba(43, 43, 43, 0.5);
+}
+
+main {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+
+}
+
+.statement {
+  margin: 0;
+  font-family: Karla;
+  font-weight: bold;
+  font-size: 16px;
+  color: #293264;
+  padding-bottom: 10px;
+}
+
+.answers {
+  margin-right: 10px;
+  min-width: 50px;
+  padding: 3px 10px;
+  border: 0.771045px solid #4D5B9E;
+  box-sizing: border-box;
+  border-radius: 7.71045px;
+  background-color: transparent;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #293264;
+}
+
+.buttons {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.check-button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  background: #4D5B9E;
+  border-radius: 10px;
+  color: #F5F7FB;
+  border: none;
+  margin-bottom: 50px;
+  width: 120px;
+  height: 35px;
+  
+}
+
+hr {
+  border: 0.794239px solid #DBDEF0;
 }
